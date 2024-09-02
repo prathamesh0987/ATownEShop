@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload">
+
+    <RelativeLayout
+        android:id="@+id/uploadLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/productTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/productName"
+            android:layout_margin="@dimen/margin15"/>
+
+        <ImageButton
+            android:id="@+id/firstImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin15"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_white"
+            android:contentDescription="@string/description"
+            android:src="@mipmap/add_btn"
+            android:layout_below="@id/productTitle"/>
+
+        <ImageButton
+            android:id="@+id/secondImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin15"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_white"
+            android:contentDescription="@string/description"
+            android:src="@mipmap/add_btn"
+            android:layout_below="@id/firstImage"/>
+
+        <ImageButton
+            android:id="@+id/thirdImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin15"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@color/transparent_white"
+            android:contentDescription="@string/description"
+            android:src="@mipmap/add_btn"
+            android:layout_below="@id/secondImage"/>
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/thirdImage"
+            android:layout_margin="@dimen/margin15"
+            android:hint="@string/describe"
+            android:inputType="text"
+            android:maxLines="10"/>
+
+        <LinearLayout
+            android:id="@+id/setUnit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/description">
+
+            <TextView
+                android:id="@+id/unit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:text="@string/unit"/>
+
+
+                <Spinner
+                    android:id="@+id/units"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+
+        <EditText
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/description"
+            android:layout_margin="@dimen/margin15"
+            android:hint="@string/price"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/discount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/price"
+            android:layout_margin="@dimen/margin15"
+            android:hint="@string/discount"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/uploadProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload"
+            android:layout_below="@id/discount"
+            android:layout_margin="@dimen/margin15"
+            android:background="@drawable/rounded_btn"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

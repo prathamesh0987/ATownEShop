@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/profile"/>
+
+        <item
+            android:id="@+id/placeOfferBanner"
+            android:icon="@drawable/baseline_view_carousel_black_18"
+            android:title="@string/advertisement"/>
+
+
+<!--        <item-->
+<!--            android:id="@+id/category"-->
+<!--            android:icon="@drawable/ic_category"-->
+<!--            android:title="@string/category"/>-->
+
+        <item
+            android:id="@+id/upload"
+            android:icon="@drawable/ic_upload"
+            android:title="@string/upload" />
+
+        <item
+            android:id="@+id/updateOffer"
+            android:icon="@drawable/ic_update"
+            android:title="@string/update" />
+
+        <item
+            android:id="@+id/displayOrder"
+            android:icon="@drawable/ic_order_history"
+            android:title="@string/displayOrder" />
+
+        <item
+            android:id="@+id/trackOrder"
+            android:icon="@drawable/baseline_local_shipping_black_18"
+            android:title="@string/track_order"/>
+
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logout" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/aboutUS"
+                android:icon="@drawable/ic_about"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>

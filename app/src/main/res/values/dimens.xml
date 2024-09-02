@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="itemName">22sp</dimen>
+    <dimen name="bottomMargin">30dp</dimen>
+    <dimen name="indicatorPadding">35dp</dimen>
+    <dimen name="imageBottomMargin">50dp</dimen>
+    <dimen name="loginPadding">30dp</dimen>
+    <dimen name="loginHeight">280dp</dimen>
+    <dimen name="signupMargin">25dp</dimen>
+    <dimen name="layoutPadding">20dp</dimen>
+
+
+    <dimen name="titleTopMargin">15dp</dimen>
+    <dimen name="thickness">3dp</dimen>
+    <dimen name="twodp">2dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin15">15dp</dimen>
+    <dimen name="dialogBoxWidth">250dp</dimen>
+    <dimen name="border_stroke">1dp</dimen>
+    <dimen name="radius">10dp</dimen>
+    <dimen name="stroke">1dp</dimen>
+    <dimen name="titleMargin">50dp</dimen>
+    <dimen name="dimen5">5dp</dimen>
+
+
+
+    <!-- Text Dimensions -->
+    <dimen name="text10">10sp</dimen>
+    <dimen name="text12">12sp</dimen>
+    <dimen name="text14">14sp</dimen>
+    <dimen name="text16">16sp</dimen>
+    <dimen name="text20">20sp</dimen>
+    <dimen name="text22">22sp</dimen>
+    <dimen name="text24">24sp</dimen>
+    <dimen name="text28">28sp</dimen>
+    <dimen name="dimen10">10dp</dimen>
+</resources>

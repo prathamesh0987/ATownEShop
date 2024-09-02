@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDarkTransparent">#cf00574B</color>
+    <color name="colorAccent">#F44336</color>
+    <color name="colorBlack">#000000</color>
+    <color name="transparent_white">#00FFFFFF</color>
+    <color name="button">#d6d7d7</color>
+    <color name="signupBackground">#F9D342</color>
+    <color name="login">#8BD8BD</color>
+    <color name="titleBackground">#243665</color>
+    <color name="signupTitleBackground">#292826</color>
+    <color name="bluish">#0099ff</color>
+    <color name="white">#FFFFFF</color>
+</resources>

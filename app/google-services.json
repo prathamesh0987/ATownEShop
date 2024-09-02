@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "234854666412",
+    "firebase_url": "https://atown-e-shop.firebaseio.com",
+    "project_id": "atown-e-shop",
+    "storage_bucket": "atown-e-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234854666412:android:d2c810011953b59c288f09",
+        "android_client_info": {
+          "package_name": "com.svr.atown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234854666412-5a7dkhjm4cgglb5u4abt0555sj6jmk15.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHKTQkv6QiI2k72eh6I6ZZUR9EU3Gox3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234854666412-5a7dkhjm4cgglb5u4abt0555sj6jmk15.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

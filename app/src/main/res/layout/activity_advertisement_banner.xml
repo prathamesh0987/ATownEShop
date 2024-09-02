@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdvertisementBanner">
+
+    <ScrollView
+        android:id="@+id/bannerScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/uploadLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/firstAdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@color/transparent_white"
+                android:contentDescription="@string/description"
+                android:src="@mipmap/add_btn" />
+
+            <ImageButton
+                android:id="@+id/secondAdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@color/transparent_white"
+                android:contentDescription="@string/description"
+                android:src="@mipmap/add_btn"
+                android:layout_below="@id/firstAdv"/>
+
+            <ImageButton
+                android:id="@+id/thirdAdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@color/transparent_white"
+                android:contentDescription="@string/description"
+                android:src="@mipmap/add_btn"
+                android:layout_below="@id/secondAdv"/>
+
+            <ImageButton
+                android:id="@+id/fourthAdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@color/transparent_white"
+                android:contentDescription="@string/description"
+                android:src="@mipmap/add_btn"
+                android:layout_below="@id/thirdAdv"/>
+
+            <ImageButton
+                android:id="@+id/fifthAdv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin15"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@color/transparent_white"
+                android:contentDescription="@string/description"
+                android:src="@mipmap/add_btn"
+                android:layout_below="@id/fourthAdv"/>
+
+            <Button
+                android:id="@+id/banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upload_ad"
+                android:layout_below="@id/fifthAdv"
+                android:layout_margin="@dimen/margin15"
+                android:background="@drawable/rounded_btn"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

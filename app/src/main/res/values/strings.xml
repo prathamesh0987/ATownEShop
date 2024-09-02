@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">ATown E-Shop</string>
+    <string name="title_activity_product">Product</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">HOME</string>
+    <string name="logout">LOGOUT</string>
+    <string name="cart">CART</string>
+    <string name="upload">UPLOAD</string>
+    <string name="update">UPDATE</string>
+    <string name="displayOrder">ORDERS</string>
+    <string name="about">ABOUT US</string>
+    <string name="communicate">Communicate</string>
+    <string name="loginTitle">Login</string>
+    <string name="description">Upload Product Image</string>
+    <string name="describe">Description</string>
+    <string name="price">Price</string>
+    <string name="discount">Discount</string>
+    <string name="productName">Product Name</string>
+    <string name="addToCart">ADD TO CART</string>
+    <string name="buyNow">BUY NOW</string>
+    <string name="quantity"><b>QTY : </b></string>
+    <string name="placeOrder">PLACE ORDER</string>
+    <string name="delete">DELETE</string>
+    <string name="cod">Cash on Delivery</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+    <string name="unit">Unit : </string>
+    <string name="email">E-Mail</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="signup">SIGNUP</string>
+    <string name="signin">SIGNIN</string>
+    <string name="name">Full Name</string>
+    <string name="contact_no">Contact no</string>
+    <string name="address">Address</string>
+    <string name="category">CATEGORY</string>
+    <string name="order_history">ORDER HISTORY</string>
+    <string name="track_order">TRACK ORDER</string>
+    <string name="profile">PROFILE</string>
+    <string name="profile_name">Name</string>
+    <string name="house_no">House No</string>
+    <string name="society">Society</string>
+    <string name="area">Area</string>
+    <string name="landmark">Landmark</string>
+    <string name="pin_code">Pin Code</string>
+    <string name="save">SAVE</string>
+    <string name="advertisement">ADVERTISEMENT</string>
+    <string name="upload_ad">UPLOAD AD</string>
+    <string name="products">Products</string>
+    <string name="want_to_shop_for">Want to shop for</string>
+
+    <string-array name="category">
+        <item>CHICKEN</item>
+        <item>MUTTON</item>
+        <item>SEA FOOD</item>
+    </string-array>
+
+</resources>
